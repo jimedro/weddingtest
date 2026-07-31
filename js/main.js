@@ -182,21 +182,11 @@
 	
 	};
 
-
-	// Loading page
-	var loaderPage = function() {
+var loaderPage = function() {
     setTimeout(function() {
         $(".fh5co-loader").addClass("fade-out");
-        }, 1000); // 1000 = 1 second delay
-    };
-
-	var counter = function() {
-		$('.js-counter').countTo({
-			 formatter: function (value, options) {
-	      return value.toFixed(options.decimals);
-	    },
-		});
-	};
+    }, 1000); // 1000 = 1 second delay
+};
 
 	var counterWayPoint = function() {
 		if ($('#fh5co-counter').length > 0 ) {
