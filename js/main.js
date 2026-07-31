@@ -182,13 +182,12 @@
 	
 	};
 
-
-	// Loading page
-    var loaderPage = function() {
-        setTimeout(function() {
-           $(".fh5co-loader").addClass("fade-out");
-        }, 700); // Waits 700ms, then triggers the 300ms CSS fade
-};
+// Loading page
+	var loaderPage = function() {
+		setTimeout(function() {
+        $(".fh5co-loader").fadeOut("slow");
+        }, 1000); 
+	};
 
 	var counter = function() {
 		$('.js-counter').countTo({
@@ -197,6 +196,7 @@
 	    },
 		});
 	};
+
 
 	var counterWayPoint = function() {
 		if ($('#fh5co-counter').length > 0 ) {
