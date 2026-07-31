@@ -1828,16 +1828,16 @@ form label {
 
 .fh5co-loader {
   position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background-color: transparent;
-  background-image: url(../images/LOADING.gif);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 160px auto;  
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  opacity: 1;
+
+  /* Combines translucent white backdrop + GIF in a single rule */
+  background: rgba(255, 255, 255, 0.8) url('../images/LOADING.gif') no-repeat center center;
+  background-size: 160px auto;
 }
 
 .js .animate-box {
