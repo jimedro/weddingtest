@@ -1838,21 +1838,23 @@ form label {
   min-height: -webkit-fill-available;
   
   z-index: 99999;
-  transition: opacity 0.8s ease, visibility 0.8s ease;
+  
+  /* Set transition speed for the fade (0.3s = 300ms) */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   opacity: 1;
   visibility: visible;
-
+ 
   background-color: rgba(255, 255, 255, 0.8) !important;
   background-image: url('../images/LOADING.gif') !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: 180px auto !important;
-
+ 
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-  .fh5co-loader.fade-out {
+.fh5co-loader.fade-out {
   opacity: 0 !important;
   visibility: hidden !important;
   pointer-events: none !important;
