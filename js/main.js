@@ -184,11 +184,11 @@
 
 
 	// Loading page
-	var loaderPage = function() {
-		setTimeout(function() {
-        $(".fh5co-loader").fadeOut("slow");
-        }, 1000); 
-	};
+    var loaderPage = function() {
+        setTimeout(function() {
+           $(".fh5co-loader").addClass("fade-out");
+        }, 700); // Waits 700ms, then triggers the 300ms CSS fade
+};
 
 	var counter = function() {
 		$('.js-counter').countTo({
