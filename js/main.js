@@ -238,7 +238,7 @@ var scrollTitle = function() {
     setInterval(function() {
         titleText = titleText.substring(1) + titleText.substring(0, 1);
         document.title = titleText;
-    }, 500); // 250ms gives a smooth, readable scroll speed
+    }, 120); // 250ms gives a smooth, readable scroll speed
 };
 
 // Call the function
