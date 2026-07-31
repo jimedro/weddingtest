@@ -230,5 +230,18 @@
 		counterWayPoint();
 	});
 
+// Scrolling browser tab title
+var scrollTitle = function() {
+    // Customize your full title here (leave spaces/symbols at the end for a smooth loop)
+    var titleText = " Jimedro is getting married! Join us in celebrating our special day • "; 
+    
+    setInterval(function() {
+        titleText = titleText.substring(1) + titleText.substring(0, 1);
+        document.title = titleText;
+    }, 250); // 250ms gives a smooth, readable scroll speed
+};
+
+// Call the function
+scrollTitle();
 
 }());
