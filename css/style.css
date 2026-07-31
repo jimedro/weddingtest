@@ -1834,7 +1834,6 @@ form label {
   height: 100%;
   z-index: 9999;
   background-color: rgba(255, 255, 255, 0.6);
-  background: url(../images/LOADING.gif) center no-repeat #fff;
   background-image: url(../images/LOADING.gif);
   background-repeat: no-repeat;
   background-position: center;
