@@ -1838,12 +1838,14 @@ form label {
   min-height: -webkit-fill-available;
   
   z-index: 99999;
-  opacity: 1;
-    background-color: rgba(255, 255, 255, 0.8);
-  background-image: url('../images/LOADING.gif');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100px auto;
+  opacity: 1 !important;
+
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  background-image: url('../images/LOADING.gif') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  
+  background-size: 160px auto !important; 
 
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
