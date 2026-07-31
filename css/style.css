@@ -1836,7 +1836,7 @@ form label {
   opacity: 1;
 
   /* Combines translucent white backdrop + GIF in a single rule */
-  background: rgba(255, 255, 255, 0.8) url('../images/LOADING.gif') no-repeat center center;
+  background: rgba(255, 255, 255, 0.2) url('../images/LOADING.gif') no-repeat center center;
   background-size: 160px auto;
 }
 
