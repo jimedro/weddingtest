@@ -1833,7 +1833,7 @@ form label {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
   background-image: url(../images/LOADING.gif);
   background-repeat: no-repeat;
   background-position: center;
