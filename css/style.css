@@ -1846,7 +1846,7 @@ form label {
   background-image: url('../images/LOADING.gif') !important;
   background-repeat: no-repeat !important;
   background-position: center center !important;
-  background-size: 80px auto !important; /* <--- Use your preferred size */
+  background-size: 180px auto !important;
 
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
